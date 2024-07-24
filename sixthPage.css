@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    height: 30px;
+    width: 100%;
+    background-color: rgba(233, 233, 233, 0.397);
+    position: fixed;
+    top: 0px;
+}
+
+.icons{
+    position: absolute;
+    right: 70px;
+    padding: 10px;
+}
+
+.sixthPage{
+    background-image: url(./assets/backgroundImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.Manuscripts{
+    height: 250px;
+    width: 299px;
+    position: absolute;
+    bottom: 40px;
+    left: 150px;
+}
+.Books{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    bottom: 40px;
+    left: 500px;
+}
+.Articles{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    bottom: 40px;
+    left: 900px;
+}

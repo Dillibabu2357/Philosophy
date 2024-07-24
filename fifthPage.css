@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center ;
+}
+.nav-bar{
+    height: 30px;
+    width: 100%;
+    background-color:  rgba(233, 233, 233, 0.397);
+    position: fixed;
+    top:0px
+}
+
+.icons{
+    position: absolute;
+    right: 70px;
+    padding: 10px;
+}
+
+.fifthPage{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/backgroundImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buddhism{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    z-index:2;
+}
+.orangeLeaf3{
+    height: 400px;
+    width: 400px;
+    transform: rotate(110deg);
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    z-index: 1;
+}
+.greenLeaf6{
+    height: 270px;
+    width: auto;
+    transform: rotate(60deg);
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.greenLeaf2{
+    height: 130px;
+    width: auto;
+    transform: rotate(100deg);
+    position: absolute;
+    top: 380px;
+    left: 230px;
+}
+.orangeLeaf{
+    height: 400px;
+    width: 400px;
+    transform: rotate(105deg);
+    position: absolute;
+    top: 110px;
+    left: 420px;
+    z-index: 1;
+}
+.greenLeaf6-2{
+    height: 270px;
+    width: auto;
+    position: absolute;
+    left: 480px;
+    top: 290px;
+    transform: rotate(45deg);
+}
+.greenLeaf2-2{
+    height: 130px;
+    width: auto;
+    transform: rotate(70deg);
+    position: absolute;
+    top: 340px;
+    left: 620px;
+}
+span{
+    color: rgb(139, 36, 1);
+}
+h3{
+    color: white;
+}
+h3:hover{
+    transform: scale(1.1);
+}
+.Mahayana{
+    position: absolute;
+    top: 260px;
+    left: 260px;
+    z-index: 1;
+}
+.Hinalaya{
+    position: absolute;
+    top: 270px;
+    left: 590px;
+    z-index: 1;
+}
+.Madhyamika{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+.Yogachara{
+    position: absolute;
+    top: 410px;
+    left: 330px;
+}
+.Sautrantika{
+    position: absolute;
+    top: 390px;
+    left: 490px;
+}
+.Vaibhasika{
+    position: absolute;
+    top: 370px;
+    left: 720px;
+}
+
+.fifthPage a {
+    display: inline-block;  /* Ensures the anchor tag respects width and height */
+    width: 100px;           /* Set the desired width */
+    height: 100px;          /* Set the desired height */
+}
+
+
+
+
+
+
+
+
+
+
+

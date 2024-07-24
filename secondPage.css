@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.nav-bar{
+    height: 30px;
+    width: 100%;
+    background-color: rgba(233, 233, 233, 0.397);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.icons{
+    position: absolute;
+    right: 70px;
+    padding: 10px;
+}
+.second-page{
+    background-image: url(./assets/backgroundImage.png);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.OSimage{
+    height: 357px;
+    width: 357px;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    z-index: 1;
+}
+.orangeLeaf1{
+    height: 350px;
+    width:  350px;
+    position: absolute;
+    left:150px;
+    top: -20px;
+    transform: rotate(-25deg);
+}
+.greenLeaf2{
+    height: 150px;
+    width: auto;
+    position: absolute;
+    top: 130px;
+    left: 240px;
+    transform: rotate(-35deg);
+}
+.orangeLeaf3{
+    height: 350px;
+    width: auto;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+}
+.greenLeaf4{
+    height: 150px;
+    width: auto;
+    position: absolute;
+    top: 320px;
+    left: 290px;
+}
+.orangeLEaf5{
+    height: 350px;
+    width: auto;
+    position: absolute;
+    top: 310px;
+    left: 230px;
+    transform: rotate(10deg);
+}
+.greenLeaf6{
+    height: 150px;
+    width: auto;
+    position: absolute;
+    top: 490px;
+    left: 140px;
+    transform: rotate(45deg);
+
+}
+.Nyaya{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    color: white;
+}
+.Vaisesika{
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    color: white;
+}
+.Sankya{
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    color: white;
+    z-index: 1;
+}
+.yoga{
+    position: absolute;
+    top: 350px;
+    left: 430px;
+    color: white;
+}
+.PurvaMimamsa{
+    position: absolute;
+    top: 460px;
+    left: 370px;
+    color: white;
+}
+.UttaraMimamsa{
+    color: white;
+    position: absolute;
+    top: 540px;
+    left: 260px;
+}
+h3:hover{
+    transform: scale(1.1);
+}
